@@ -2,7 +2,7 @@
   "people_counter": {
     "prototxt": "./config/mobilenet_ssd/MobileNetSSD_deploy.prototxt",
     "model": "./config/mobilenet_ssd/MobileNetSSD_deploy.caffemodel",
-    "input": "./config/videos/example_01.mp4",
+    "input": "./config/videos/example_01.3gp",
     "skip_frames": 30,
     "confidence":0.4
   },
