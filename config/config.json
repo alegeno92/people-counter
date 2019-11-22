@@ -1,0 +1,18 @@
+{
+  "people_counter": {
+    "prototxt": "./config/mobilenet_ssd/MobileNetSSD_deploy.prototxt",
+    "model": "./config/mobilenet_ssd/MobileNetSSD_deploy.caffemodel",
+    "input": "./config/videos/example_01.mp4",
+    "skip_frames": 30,
+    "confidence":0.4
+  },
+  "mqtt": {
+    "host": "localhost",
+    "port": 1883,
+    "client_id": "people-counter"
+  },
+  "streaming": {
+    "host": "0.0.0.0",
+    "port": 8084
+  }
+}
